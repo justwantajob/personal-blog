@@ -5,10 +5,17 @@
 }
 
 .hero-header {
+  font-family: 'Cambridge', serif;
   font-size: var(--size-heading);
   font-weight: 500;
   letter-spacing: -0.025em;
   color: var(--dark-theme-foreground);
+}
+
+.hero-description {
+  max-width: calc((700px / 4) * 3);
+  color: var(--dark-theme-text);
+  margin-top: -24px;
 }
 
 .hero p {
