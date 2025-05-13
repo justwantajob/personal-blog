@@ -16,8 +16,9 @@
   --light-theme-text: #646464;
   --light-theme-link-faded: #646464;
   --light-theme-component-background: #F9F9F9;
-  --light-theme-contrast-background: #ffb86126;
+  --light-theme-contrast-background: #FFB86126;
   --light-theme-contrast-foreground: #FFB861;
+  --light-theme-contrast-hover: #ffb86133;
 
   /* Dark Theme Palette */
   --dark-theme-background: #0B0B0B;
@@ -25,11 +26,12 @@
   --dark-theme-text: #B4B4B4;
   --dark-theme-link-faded: #B4B4B4;
   --dark-theme-component-background: #191919;
-  --dark-theme-contrast-background: #ff616126;
+  --dark-theme-contrast-background: #FF616126;
   --dark-theme-contrast-foreground: #FF6161;
+  --dark-theme-contrast-hover: #ff616133;
 
   /* FONT SIZES */
-  --size-heading: 24px;
+  --size-heading: 30px;
   --size-subheading: 16px;
   --size-text: 16px;
   --size-link: 14px;
@@ -47,4 +49,31 @@ body {
   background-color: var(--dark-theme-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-top: 176px;
+    padding-bottom: 176px;
+  }
+
+  section {
+    gap: 96px;
+  }
 }
