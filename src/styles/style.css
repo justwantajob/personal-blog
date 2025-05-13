@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap');
+
+@font-face {
+  font-family: "Cambridge";
+  src: url("../assets/fonts/Cambridge.woff") format("woff");
+}
+
+:root {
+  /* DEFAULTS */
+  font-family: 'Geist', sans-serif;
+
+  /* PALETTES */
+  /* Light Theme Palette */
+  --light-theme-background: #FFFFFF;
+  --light-theme-foreground: #202020;
+  --light-theme-text: #646464;
+  --light-theme-link-faded: #646464;
+  --light-theme-component-background: #F9F9F9;
+  --light-theme-contrast-background: #ffb86126;
+  --light-theme-contrast-foreground: #FFB861;
+
+  /* Dark Theme Palette */
+  --dark-theme-background: #0B0B0B;
+  --dark-theme-foreground: #EEEEEE;
+  --dark-theme-text: #B4B4B4;
+  --dark-theme-link-faded: #B4B4B4;
+  --dark-theme-component-background: #191919;
+  --dark-theme-contrast-background: #ff616126;
+  --dark-theme-contrast-foreground: #FF6161;
+
+  /* FONT SIZES */
+  --size-heading: 24px;
+  --size-subheading: 16px;
+  --size-text: 16px;
+  --size-link: 14px;
+  --size-description: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-foreground);
+}
