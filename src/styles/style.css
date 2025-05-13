@@ -43,6 +43,8 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--dark-theme-background);
-  color: var(--dark-theme-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
