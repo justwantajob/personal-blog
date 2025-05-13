@@ -8,7 +8,7 @@
   font-family: 'Cambridge', serif;
   font-size: var(--size-heading);
   font-weight: 500;
-  letter-spacing: -0.025em;
+  /* letter-spacing: -0.025em; */
   color: var(--dark-theme-foreground);
 }
 
@@ -39,7 +39,7 @@
   align-items: center;
   gap: 4px;
   padding: 4px 12px;
-  border-radius: 99px;
+  border-radius: 8px;
   background-color: var(--dark-theme-contrast-background);
   color: var(--dark-theme-contrast-foreground);
   transition: background-color .3s ease;
@@ -52,4 +52,10 @@
 .hero-link svg {
   width: 11px;
   height: 11px;
+}
+
+@media (min-width: 768px) {
+  .hero-header {
+    font-size: 72px;
+  }
 }
