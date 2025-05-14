@@ -1,0 +1,55 @@
+.apps {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.apps-header {
+  color: var(--dark-theme-foreground);
+  font-size: var(--size-subheading);
+  font-weight: normal;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.app-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-name {
+  color: var(--dark-theme-foreground);
+  font-weight: normal;
+  font-size: var(--size-subheading);
+}
+
+.app-description {
+  color: var(--dark-theme-text);
+  font-size: var(--size-link);
+}
+
+.app-link {
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  background-color: var(--dark-theme-contrast-background);
+  color: var(--dark-theme-contrast-foreground);
+}
