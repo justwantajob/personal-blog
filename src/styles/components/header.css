@@ -25,9 +25,9 @@ nav {
   transition: color .3s ease;
 }
 
-.nav-item:first-child {
+/* .nav-item:first-child {
   background-color: var(--dark-theme-component-background);
-}
+} */
 
 .nav-item:hover {
   color: var(--dark-theme-foreground);
